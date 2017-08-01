@@ -15,7 +15,7 @@ int repeatcheck(int M)
 		{
 			for(p=0;p<M-3;p++)//后三位不需要检测，因为前面可以检测到 
 			{
-				if((c[p]==c[p+1])&&(c[p+1]==c[p+3])&&(c[p+2]==c[p+3]))
+				if((c[p]==c[p+1])&&(c[p+1]==c[p+2])&&(c[p+2]==c[p+3]))
 					return 0;		
 				/*
 				temp = c[p];
